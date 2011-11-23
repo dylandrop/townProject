@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  video_url: MyString
+  cost: 1
+  name: MyString
+  description: MyText
+
+two:
+  video_url: MyString
+  cost: 1
+  name: MyString
+  description: MyText

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TownProject</title>
+  <%= stylesheet_link_tag "style" %>
+  <%= javascript_include_tag "application" %>
+  <%= render 'layouts/behavior' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class = "container">
+<div id = "skyline">
+	<%= image_tag "skyline.png" %>
+</div>
+<div class="main">
+	<div id = "gradient">
+	<%= yield %>
+	<div class = "clear"></div>
+	</div>
+</div>
+</div>
+</body>
+</html>

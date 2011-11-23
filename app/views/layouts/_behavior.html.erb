@@ -1,0 +1,18 @@
+
+<script type="text/javascript">
+
+$(function(){
+	for (i=0;i<=3;i++)
+	{
+		$(".a_video").get(i).removeAttribute("controls");
+	}
+});
+
+$('.close').live('click', function() {
+  	$(".product").slideUp("slow");
+});
+
+$('.moreinfo').live('click', function() {
+  	$(".product").slideDown("slow");
+});
+</script>
